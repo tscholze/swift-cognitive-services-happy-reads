@@ -26,6 +26,11 @@ class CognitiveService
     
     // MARK: - Life cycle -
     
+    private init()
+    {
+        
+    }
+    
     
     // MARK: - Internal methods -
     
