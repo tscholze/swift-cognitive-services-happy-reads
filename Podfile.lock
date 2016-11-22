@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.0.1)
+  - ObjectMapper (2.0.0)
+  - SnapKit (3.0.1)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - ObjectMapper
+  - SnapKit
+  - XMLDictionary (from `https://github.com/snakecharmer/XMLDictionary.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  XMLDictionary:
+    :branch: master
+    :git: https://github.com/snakecharmer/XMLDictionary.git
+
+CHECKOUT OPTIONS:
+  XMLDictionary:
+    :commit: d134e9481bb039db52f45088aefa3727e14bbb60
+    :git: https://github.com/snakecharmer/XMLDictionary.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  ObjectMapper: aed2570edabbd3c9b26c939e1cabdb6558f933e0
+  SnapKit: f818b8326d45b4e1c777d0ab27b5c0a3624bfdeb
+  XMLDictionary: 6b1a160939bd3444487486ed91ff36b58221be42
+
+PODFILE CHECKSUM: 7294eee1fc18ad9f90e65166480e1c228c48a823
+
+COCOAPODS: 1.1.1
