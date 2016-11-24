@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SafariServices
 
 
 /// TableViewController to work with `ArticleTableViewCell`
@@ -159,6 +160,28 @@ class TableViewController: UITableViewController
 
 extension TableViewController
 {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        guard let articleUrl = URL(string: articles[indexPath.row].link) else
+        {
+            return
+        }
+        
+        let safariVc = SFSafariViewController(url: articleUrl, entersReaderIfAvailable: true)
+        
+        safariVc.delegate                   = self
+        safariVc.preferredBarTintColor      = UIColor.white
+        safariVc.preferredControlTintColor  = UIColor.orange
+        
+        present(safariVc, animated: true, completion: nil)
+    }
+}
+
+
+// MARK: - UITableViewDatasource -
+
+extension TableViewController
+{
     override func numberOfSections(in tableView: UITableView) -> Int
     {
         return 1
@@ -178,5 +201,16 @@ extension TableViewController
         
         cell.article = articles[indexPath.row]
         return cell
+    }
+}
+
+
+// MARK: - SafariViewControllerDelegate -
+
+extension TableViewController: SFSafariViewControllerDelegate
+{
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController)
+    {
+        controller.dismiss(animated: true, completion: nil)
     }
 }

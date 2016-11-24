@@ -45,7 +45,8 @@ class ArticleItem
         // Ensure that non optional values are present
         guard dict["title"] != nil &&
               dict["description"] != nil &&
-              dict["dwsyn:contentID"] != nil else
+              dict["dwsyn:contentID"] != nil &&
+              dict["link"] != nil else
         {
             return nil
         }
@@ -79,7 +80,7 @@ extension ArticleItem: CustomStringConvertible
         guard let _id = id,
               let _title = title else
         {
-            return "Object with missing id"
+            return "`ArticleItem` object with missing id"
         }
         
         guard let _score = score else
