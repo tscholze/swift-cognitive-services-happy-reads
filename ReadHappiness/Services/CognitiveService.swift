@@ -21,7 +21,7 @@ class CognitiveService
     
     // MARK: - Private properties -
     
-    fileprivate static let ApiKey = "2049060041db4bc5960e0acf40391ae2"
+    fileprivate static let ApiKey = "<< Your Key >>"
     fileprivate static let ApiUrl = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment"
     
     
