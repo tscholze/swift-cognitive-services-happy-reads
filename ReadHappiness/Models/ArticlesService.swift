@@ -52,7 +52,7 @@ class Articles
                     return false
                 }
                 
-                return _score >= 0.5
+                return _score > 0.74
             })
             
             callback(positives)
@@ -60,7 +60,7 @@ class Articles
     }
     
     
-    /// Gets all unhappy (happiness score < 50%) articles
+    /// Gets all unhappy (happiness score <= 75%) articles
     ///
     /// callback: List of sad articles
     func getUnhappyArticles(callback: @escaping (_ articles: [ArticleItem]) -> ())
@@ -73,7 +73,7 @@ class Articles
                     return false
                 }
                 
-                return _score < 0.49
+                return _score < 0.74
             })
             
             callback(positives)
