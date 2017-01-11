@@ -81,12 +81,12 @@ class ArticleTableViewCell: UITableViewCell
             return
         }
         
-        if _score > 0.84
+        if _score > 0.89
         {
             emojiLabel.text = "😀"
         }
         
-        else if _score > 0.49
+        else if _score > 0.74
         {
             emojiLabel.text = "🙂"
         }
