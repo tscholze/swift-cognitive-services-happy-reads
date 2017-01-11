@@ -41,3 +41,5 @@ This is a simple use case and play-around app to use the [Microsoft Cogntive Ser
 
 ## License 
 Quotes is licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) License. Icon and external dependencies may differ. 
+
+PS: If you find any API key in the repository's git history, the key will not work.
