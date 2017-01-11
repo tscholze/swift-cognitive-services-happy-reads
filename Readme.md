@@ -1,13 +1,14 @@
 ## What's this?
-This is a simple use case and play-around app to use the [Microsoft Cogntive Service](https://www.microsoft.com/cognitive-services/en-us/apis) Text API. It parses the English version of the [Deutsche Welle](http://www.dw.com/en/top-stories/s-9097) news and calculates the individual happiness of each article.
+This is a simple use case and play-around app to use the [Microsoft Cogntive Service](https://www.microsoft.com/cognitive-services/en-us/apis) Text Analytics API. It parses the English version of the [Deutsche Welle](http://www.dw.com/en/top-stories/s-9097) news and calculates the individual happiness of each article.
 
 ## Features
 1. It compiles
 1. It will split the news into *happy* and *unhappy* ones
 
 ## How to run
-1. Create a free trail [Microsoft Cognitive Services account](https://www.microsoft.com/cognitive-services/en-us/sign-up)
-1. Copy and paste the Text API service key to the `ApiKey`property in the `CognitiveService.swift` file
+1. Create a (free) [Microsoft Cognitive Services account](https://www.microsoft.com/cognitive-services/en-us/sign-up)
+1. Create a trail [Text Analytics API](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api) key
+1. Copy and paste the Text Analytics API service key to the `ApiKey` property in the `CognitiveService.swift` file
 1. Run `pod install` to install external dependencies
 1. Run the project
 
@@ -43,4 +44,5 @@ This is a simple use case and play-around app to use the [Microsoft Cogntive Ser
 ## License 
 Quotes is licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) License. Icon and external dependencies may differ. 
 
+## Others
 PS: If you find any API key in the repository's git history, the key will not work.
