@@ -14,22 +14,23 @@ This is a simple use case and play-around app to use the [Microsoft Cogntive Ser
 ## How it looks
 
 <div style="text-align:center">
-	<a href="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/loading-scene.png">
-		<img src="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/loading-scene.png" height="300px" />
-	</a>
 
-	<a href="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/happy-scene.png">
-		<img src="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/happy-scene.png" height="300px" />
+	<a href="https://raw.githubusercontent.com/tscholze/swift-cognitive-services-happy-reads/develop/docs/loading-scene.png">
+		<img src="https://raw.githubusercontent.com/tscholze/swift-cognitive-services-happy-reads/develop/docs/loading-scene.png" height="300px" />
+	</a>
+	
+	<a href="https://raw.github.com/tscholze/swift-cognitive-services-happy-reads/blob/develop/docs/happy-scene.png">
+		<img src="https://raw.github.com/tscholze/swift-cognitive-services-happy-reads/blob/develop/docs/happy-scene.png" height="300px" />
 	</a>
 
     <br />
 
-    <a href="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/unhappy-scene.png">
-		<img src="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/unhappy-scene.png" height="300px" />
+    <a href="https://.rawgithub.com/tscholze/swift-cognitive-services-happy-reads/blob/develop/docs/unhappy-scene.png">
+		<img src="https://raw.github.com/tscholze/swift-cognitive-services-happy-reads/blob/develop/docs/unhappy-scene.png" height="300px" />
 	</a>
 
-    <a href="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/info-scene.png">
-		<img src="https://github.com/tscholze/swift-cognitive-services-happy-reads/blob/master/docs/info-scene.png" height="300px" />
+    <a href="https://raw.github.com/tscholze/swift-cognitive-services-happy-reads/blob/develop/docs/info-scene.png">
+		<img src="https://raw.github.com/tscholze/swift-cognitive-services-happy-reads/blob/develop/docs/info-scene.png" height="300px" />
 	</a>
 </div>
 
